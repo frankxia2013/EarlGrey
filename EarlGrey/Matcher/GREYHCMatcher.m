@@ -14,6 +14,7 @@
 // limitations under the License.
 //
 
+// OCHamcrest是一个开源项目，提供了一些匹配方法，EarlGrey的Matcher的方法可以说完全是copy这个项目，需要研究下
 #import "Matcher/GREYHCMatcher.h"
 
 #import <OCHamcrest/HCMatcher.h>

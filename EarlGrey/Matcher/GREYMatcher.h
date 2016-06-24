@@ -21,6 +21,8 @@
  *  Matchers are another way of expressing simple or complex logical expressions. This protocol
  *  defines a set of methods that must be implemented by every matcher object.
  */
+//看看池建强关于protocol的介绍：http://www.cnblogs.com/chijianqiang/archive/2012/06/22/objc-category-protocol.html
+//个人感觉这protocol就是C/C++中的虚函数
 @protocol GREYMatcher<NSObject>
 
 /**

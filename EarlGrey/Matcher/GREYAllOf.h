@@ -29,6 +29,7 @@
 /**
  *  @remark init is not an available initializer. Use the other initializers.
  */
+ //不能用自生的init来初始化？？
 - (instancetype)init NS_UNAVAILABLE;
 
 /**

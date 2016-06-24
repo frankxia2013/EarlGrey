@@ -20,5 +20,6 @@
 /**
  *  A string based implementation of GREYDescription protocol.
  */
+// *  对protocol GREYDescription做一下具体的实现
 @interface GREYStringDescription : NSObject<GREYDescription>
 @end

@@ -25,6 +25,7 @@
   return stringDescription.description;
 }
 
+//抽象方法，延迟到子类实现
 - (BOOL)matches:(id)item {
   [self doesNotRecognizeSelector:_cmd];
   return NO;
@@ -42,6 +43,7 @@
   [self describeTo:mismatchDescription];
 }
 
+//抽象方法，延迟到子类实现
 - (void)describeTo:(id<GREYDescription>)description {
   [self doesNotRecognizeSelector:_cmd];
 }
